@@ -10,8 +10,6 @@ function App() {
   useEffect(() => {
     if (darkMode && device !== "MOBILE") {
       document.body.classList.add("dark");
-    } else if (darkMode && device === "MOBILE") {
-      document.body.classList.remove("dark");
     } else {
       document.body.classList.remove("dark");
     }
